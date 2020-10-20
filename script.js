@@ -10,7 +10,7 @@ setTimeout(() => {
 setTimeout(() => {
   document.body.click();
   document.querySelector("audio").play();
-}, 25000);
+}, 20000);
 
 document.body.addEventListener("click", () => {
   document.querySelector("audio").play();
