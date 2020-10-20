@@ -8,5 +8,10 @@ setTimeout(() => {
   confetti.render();
 }, 28000);
 setTimeout(() => {
+  document.body.click();
   document.querySelector("audio").play();
 }, 25000);
+
+document.body.addEventListener("click", () => {
+  document.querySelector("audio").play();
+});
